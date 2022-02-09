@@ -1,0 +1,49 @@
+@media screen and (min-width: 320px) {
+  .card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 451px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    height: 278px;
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+@media screen and (min-width: 986px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 451px;
+    height: 278px;
+    margin: 0px 20px 20px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card:nth-child(even) {
+    margin: 0 0 20px 0;
+  }
+  
+  .card:last-child {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .card {
+    align-items: center;
+    margin: 0 35px 35px 0;
+  }
+
+  .card:nth-child(even) {
+    margin: 0 0 35px 0;
+  }
+}

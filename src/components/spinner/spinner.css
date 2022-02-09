@@ -1,0 +1,9 @@
+@media screen and (min-width: 320px) {
+	.loader{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 500px;
+	}
+}

@@ -1,0 +1,142 @@
+@media screen and (min-width: 320px) {
+    
+  .card-img img {
+    width: 40%;
+    max-width: 183px;
+  }
+  
+  .card-img {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+  }
+  
+  .card-body {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 6px 10px 6px 10px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-bottom: 7px;
+  }
+  
+  .card-title {
+    max-width: 190px;
+    font-size: 15px;
+    font-family: 'inter-bold';
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .circle-rate {
+    font-size: 12px;
+  }
+  
+  .card-date {
+    font-family: 'inter-normal';
+    font-size: 12px;
+    margin-left: 80px;
+    margin-bottom: 9px;
+  }
+  
+  .card-genre {
+    font-family: 'inter-normal';
+    font-size: 12px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+  }
+  
+  .card-genre button {
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+  
+  .button-mr {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .card-text {
+    font-family: 'inter-normal';
+    font-size: 12px;
+  }
+  
+  .star {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+  
+@media screen and (min-width: 768px) {
+
+  .card-img {
+    width: 187px;
+    position: unset;
+    top: 0;
+    left: 0;
+  }
+  
+  .card-img img {
+    width: unset;
+    max-width: 185px;
+  }
+  
+  .card-body {
+    width: 268px;
+    height: 278px;
+    padding: 12px 20px 6px 20px;
+  }
+  
+  .card-header {
+    margin-left: unset;
+    margin-bottom: 7px;
+  }
+  
+  .card-date {
+    margin-left: unset;
+  }
+  
+  .card-genre {
+    margin-left: unset;
+    margin-bottom: 7px;
+  }
+  
+  .star {
+    position: absolute;
+    right: unset;
+    left: 27px;
+    bottom: 15px;
+  }
+}
+  
+.color-red {
+  border: 2px solid #e90000;
+}
+  
+.color-orange {
+  border: 2px solid #e97e00;
+}
+  
+.color-yellow {
+  border: 2px solid #e9d100;
+}
+  
+.color-lime {
+  border: 2px solid #66e900;
+}
+  
